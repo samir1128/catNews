@@ -17,7 +17,7 @@ import LoadingBar from "react-top-loading-bar";
   const [progress,setProgress]= useState(0)
   
     return (
-      <Router>
+      <Router  basename="/catNews">
 
       <Navbar/>
       <LoadingBar
